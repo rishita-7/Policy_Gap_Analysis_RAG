@@ -1,4 +1,4 @@
-import fitz
+import pymupdf as fitz
 
 
 def load_pdf(file_path):
