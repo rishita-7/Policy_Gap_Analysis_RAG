@@ -13,18 +13,6 @@ chunks = create_chunks(pages)
 print(f"Total pages: {len(pages)}")
 print(f"Total chunks: {len(chunks)}")
 
-'''
-print("\n--- FIRST CHUNK ---")
-print(chunks[0]["text"])
-
-
-print("\n--- 20th CHUNK METADATA ---")
-print(chunks[19]["metadata"])
-
-
-print("\n--- 80th CHUNK ---")
-print(chunks[79]["text"])
-'''
 
 print("\n--- Sample CHUNKS ---")
 
