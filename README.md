@@ -1,4 +1,4 @@
-# Policy Gap Analysis RAG
+<img width="155" height="236" alt="image" src="https://github.com/user-attachments/assets/1cbf7003-9987-4324-871d-4a5257e28df2" /># Policy Gap Analysis RAG
 
 A Retrieval-Augmented Generation (RAG) based cybersecurity policy gap analyzer.
 
@@ -10,23 +10,18 @@ This is a separate implementation from my earlier NLP and keyword-matching based
 
 ## Architecture
 
-Policy Document\n
-        ↓\n
-Document Processing\n
-        ↓\n
-Chunking\n
-        ↓\n
-Embeddings\n
-        ↓\n
-Vector Database\n
-        ↓\n
-Semantic Retrieval\n
-        ↓\n
-Relevant NIST Context\n
-        ↓\n
-LLM\n
-        ↓\n
-Evidence-Based Gap Analysis\n
+```mermaid
+flowchart TD
+    A[Policy Document] --> B[Document Processing]
+    B --> C[Chunking]
+    C --> D[Embeddings]
+    D --> E[Vector Database]
+    E --> F[Semantic Retrieval]
+    F --> G[Relevant NIST Context]
+    G --> H[LLM]
+    H --> I[Evidence-Based Gap Analysis]
+```
+
 
 ## Tech Stack
 
