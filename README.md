@@ -10,23 +10,23 @@ This is a separate implementation from my earlier NLP and keyword-matching based
 
 ## Architecture
 
-Policy Document
-        ↓
-Document Processing
-        ↓
-Chunking
-        ↓
-Embeddings
-        ↓
-Vector Database
-        ↓
-Semantic Retrieval
-        ↓
-Relevant NIST Context
-        ↓
-LLM
-        ↓
-Evidence-Based Gap Analysis
+Policy Document\n
+        ↓\n
+Document Processing\n
+        ↓\n
+Chunking\n
+        ↓\n
+Embeddings\n
+        ↓\n
+Vector Database\n
+        ↓\n
+Semantic Retrieval\n
+        ↓\n
+Relevant NIST Context\n
+        ↓\n
+LLM\n
+        ↓\n
+Evidence-Based Gap Analysis\n
 
 ## Tech Stack
 
@@ -44,10 +44,10 @@ Evidence-Based Gap Analysis
 ### Progress
 
 - [x] Repository setup
-- [ ] NIST document ingestion
-- [ ] Document chunking
-- [ ] Embeddings
-- [ ] Vector database
+- [x] NIST document ingestion
+- [x] Document chunking
+- [x] Embeddings
+- [x] Vector database
 - [ ] Semantic retrieval
 - [ ] LLM integration
 - [ ] Evidence-based gap analysis
