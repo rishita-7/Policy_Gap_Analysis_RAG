@@ -1,4 +1,4 @@
-<img width="155" height="236" alt="image" src="https://github.com/user-attachments/assets/1cbf7003-9987-4324-871d-4a5257e28df2" /># Policy Gap Analysis RAG
+# Policy Gap Analysis RAG
 
 A Retrieval-Augmented Generation (RAG) based cybersecurity policy gap analyzer.
 
